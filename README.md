@@ -1,9 +1,16 @@
-# Vanilla PHP
+# Rapid PHP API Development
 
-I'd recommend shying away from plain vanilla PHP unless you for sure, for sure know what you are doing. (and even then, you probably shouldn't but if you insist...)
+Mash up of various PHP Frameworks to quickly build a RESTful API. In each example I've stood up a skeleton project and got the bare minimum done to store a "Note" in a database via CRUD calls to a json API. I didn't write tests but I did regression test the basic calls. 
 
-If I were forced to, I'd probably still use composer to pull in `symfony/http-foundation` and other components to help out like Doctrine for API Models/Repositories.
+I've stood up the following in this repo:
 
-You can find an example of a [https://github.com/php-vegas/starter-app](simple php site) and use bits of it for an API app instead.
+* CakePHP
+* Laravel
+* Lumen
+* Symfony Flex
+* Vanilla PHP
+* Zend
+* Zend Expressive
 
-There are a few "Quick RESTful PHP API" tutorials out there but honestly, I'd advise from a security and maintenance standpoint you just pick any _major_ open-source framework that either your team or you are good in or end up enjoying. It will save you a ton of time later when other devs or the product owner throws big feature requests at you.
+I used PHP 7.2 with various extensions to support each framework. I dropped Mysql 5.7 along side to connect to. I'm on Ubuntu 18.04 and googled my way to victory to get everything installed.
+
