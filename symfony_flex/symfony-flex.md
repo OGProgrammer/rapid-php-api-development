@@ -44,8 +44,9 @@ Now to create the controller, we can run `bin/console make:controller NotesContr
 
 From there I've pretty much followed the [Doctrine/Symfony Docs](https://symfony.com/doc/current/doctrine.html) to get the CRUD routes setup.
 
+I leveraged the autowire features on my routes so I have access right away to things like the hydrated database model, the entity manager, and the request object.
 
-
+This was by far the most pleasing to develop in and with my prior Symfony experience, was as easy as 1, 2, 3.
 
 ## OGP Thoughts
 
@@ -65,9 +66,12 @@ Just as I, when you develop a ton within a framework that you like for the first
 
 I'd say it is in your best interest as a good PHP developer to explore each framework and understand the design paradigms and patterns used within them. Only then, will you become a master PHP craftsman.
 
-
 ## Ways To Extend
 
 If you want an easy way to generate CRUD controllers for your Entity, you can run `bin/console make:crud`
 
 If you want a docker environment, I recommend forking https://github.com/eko/docker-symfony and making your own wiz-bang local environment with it.
+
+API Platform is built with Symfony 4 and might be worth checking out.
+
+The "Friends of Symfony" packages are great too (like `FOSRestBundle`) and don't forget to browse through the available Flex packages available. 
