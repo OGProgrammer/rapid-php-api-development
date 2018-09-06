@@ -18,4 +18,11 @@ I used PHP 7.2 with various extensions to support each framework. I dropped Mysq
 
 There are just too many possible Frameworks out there to cover so here is a list of others that are used in the wild.
 
-* https://api-platform.com
+* Symfony Based
+  * https://api-platform.com
+  * https://github.com/tarlepp/symfony-flex-backend
+* Slim
+  * https://github.com/tuupola/slim-api-skeleton
+* Yii
+  * https://github.com/chrisleekr/yii2-angular-boilerplate
+  * https://github.com/yiisoft/yii-rest
