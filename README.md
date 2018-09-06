@@ -26,3 +26,5 @@ There are just too many possible Frameworks out there to cover so here is a list
 * Yii
   * https://github.com/chrisleekr/yii2-angular-boilerplate
   * https://github.com/yiisoft/yii-rest
+* Lumen
+  * https://github.com/aenglander/practical-api-security-php-example-lumen
