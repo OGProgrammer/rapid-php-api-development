@@ -2,6 +2,8 @@
 
 Mash up of various PHP Frameworks to quickly build a RESTful API. In each example I've stood up a skeleton project and got the bare minimum done to store a "Note" in a database via CRUD calls to a json API. I didn't write tests but I did regression test the basic calls. 
 
+You can checkout the slides at [here](https://docs.google.com/presentation/d/1yAbHhvnf0-xE2kUH3FF4K2WuX7Mn8SkiirDYFclhMtg/edit?usp=sharing).
+
 I've stood up the following in this repo:
 
 * CakePHP
